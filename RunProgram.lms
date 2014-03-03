@@ -1,0 +1,7 @@
+vmthread MAIN
+{
+DATA32 Status
+
+//This is the command that executes the program
+SYSTEM('/media/card/program',Status)
+}
